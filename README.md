@@ -1,6 +1,6 @@
 # azure-info
 
-### Azure Data Factory
+### Azure Data Factory (ADF)
 
 Description: cloud ETL service allows to create serverless data integration and data transformation with code-free UI.
 
