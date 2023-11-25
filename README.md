@@ -26,9 +26,26 @@ Linked Service has information of how to connect to the data or a SQL database
 * Integration Runtime - bridge between the activity and linked services. Compute unit to run activity while meeting security and compliance rules.
 * Triggers (scheduler) - determine when a pipeline execution needs to be kicked off.
 
-#### Integration Runtimes - comute infrustructure in ADF
+#### Integration Runtimes - compute infrustructure in ADF
 
 Three types:
 - Azure integration runtime - used between Azure services
 - Self-hosted integration runtime - run copy activities between on-premisis (private VNET) solutions and cloud data store.
 - Azure-SQL Server Integration Services (SSIS) - run SSIS packages
+
+#### Activity types:
+
+- Data movement
+- Data transformation
+- Control flow
+
+#### Triggers types:
+
+* Schedule trigger - invokes a pipeline on a wall-clock schedule.
+* Tumbling window trigger - operates on a periodic interval, while also retaining state.
+* Event-based trigger - a trigger that responds to an event.
+
+#### Mapping Data Flows - visually designed data transformations in ADF
+
+Debug mode allows to see the results of each transformation step while you build and debug your data flows.
+Monitoring Data Flows
