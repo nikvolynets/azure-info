@@ -25,3 +25,10 @@ Linked Service has information of how to connect to the data or a SQL database
 * Linked services - connection strings which define the connections between external resources.
 * Integration Runtime - bridge between the activity and linked services. Compute unit to run activity while meeting security and compliance rules.
 * Triggers (scheduler) - determine when a pipeline execution needs to be kicked off.
+
+#### Integration Runtimes - comute infrustructure in ADF
+
+Three types:
+- Azure integration runtime - used between Azure services
+- Self-hosted integration runtime - run copy activities between on-premisis (private VNET) solutions and cloud data store.
+- Azure-SQL Server Integration Services (SSIS) - run SSIS packages
