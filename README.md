@@ -21,26 +21,25 @@
 
 ![image](https://github.com/nikvolynets/azure-info/assets/151893648/faf1a881-ff96-4e74-a210-e3859fdfdeaf)
 
-#### Azure storage
+### Azure storage
 
-Two account types:
+#### Two account types:
 * Standard
 * Premium
 
-Four data types:
+#### Four data types:
 * Blob - all types of files (most commonly used)
   * Data Lake Storage Gen2 - Hierarchical blob storage, can criete directories (integrated with Hadoop)
 * File
 * Queue - meesages between applications
 * Table - semi-structured NoSQL data
 
-
-Three tiers for storing:
+#### Three tiers for storing:
 * Hot - friquently accessed data
 * Cool - at least 30 days
 * Archive - store at least 180 days
 
-### Azure Data Lake
+#### Azure Data Lake Gen2 = Blob storage + Data Lake Gen1 (Hadoop)
 * Access tiers - hot, cool, archive
 * Monitoring services - create rules to manage blob access tiers
 * Security
