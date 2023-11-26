@@ -1,5 +1,52 @@
 # azure-info
 
+### Cloud info
+
+#### Cloud Service Models:
+* Infrustrusture as a Service (IaaS) - user doesn't conrol hardware but has full control over operation systems, storage and applications (AWS, Azure, GCP, Virtual Machines)
+* Platfrom as a Service (PaaS) - doesn't manage hardware, operation systems and storage but has control over application and configuration environment (ADF, Synapse, Azure Databricks)
+* Software as a Service (SaaS) - control only of limited specific application configurations (Snowflake, Salesforce)
+
+#### Big Data - 3 V's 
+* Volume - huge data size
+* Velocity - high speed of data flow, change and processing
+* Variety - various data sources
+
+#### Data Classification
+* Structured - SQL DB, csv, tabular, spreadsheets
+* Semi-structured - NoSQL, JSON, YAML
+* Unstructured - media files, text, office files
+
+### Azure General
+
+![image](https://github.com/nikvolynets/azure-info/assets/151893648/faf1a881-ff96-4e74-a210-e3859fdfdeaf)
+
+#### Azure storage
+
+Two account types:
+* Standard
+* Premium
+
+Four data types:
+* Blob - all types of files (most commonly used)
+  * Data Lake Storage Gen2 - Hierarchical blob storage, can criete directories (integrated with Hadoop)
+* File
+* Queue - meesages between applications
+* Table - semi-structured NoSQL data
+
+
+Three tiers for storing:
+* Hot - friquently accessed data
+* Cool - at least 30 days
+* Archive - store at least 180 days
+
+### Azure Data Lake
+* Access tiers - hot, cool, archive
+* Monitoring services - create rules to manage blob access tiers
+* Security
+* Life Cycle policy
+* Redundancy
+
 ### Azure Data Factory (ADF)
 
 Description: cloud ETL service allows to create serverless data integration and data transformation with code-free UI.
@@ -53,8 +100,6 @@ Monitoring Data Flows
 ### Azure Synapse Analytics - signle unified service blending big data analytics (Databricks), data warehousing (SQL DW, Data Lake Storage) and data integration (ADF)
 
 ![image](https://github.com/nikvolynets/azure-info/assets/151893648/b8f6f1dd-7786-4de5-adc7-defceb0be492)
-
-
 
 * OLTP - online transational processing
 * OLAP - online analytics processing
