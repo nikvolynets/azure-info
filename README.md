@@ -50,12 +50,22 @@ Three types:
 Debug mode allows to see the results of each transformation step while you build and debug your data flows.
 Monitoring Data Flows
 
-### Azure Synapse Analytics
+### Azure Synapse Analytics - signle unified service blending big data analytics (Databricks), data warehousing (SQL DW, Data Lake Storage) and data integration (ADF)
+
+![image](https://github.com/nikvolynets/azure-info/assets/151893648/b8f6f1dd-7786-4de5-adc7-defceb0be492)
+
+
 
 * OLTP - online transational processing
 * OLAP - online analytics processing
 * MPP - massively parallel processing
 
 #### 2 types of pools:
-* SQL pool
-* Apache Spark pool
+* SQL pool - RunTime for SQL scripts
+* Apache Spark pool - RineTime for Notebooks (Python, Scala etc.)
+
+#### Key features:
+* Integration
+* Management
+* Monitoring
+* Security
