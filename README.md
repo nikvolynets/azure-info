@@ -50,7 +50,7 @@ Three types:
 Debug mode allows to see the results of each transformation step while you build and debug your data flows.
 Monitoring Data Flows
 
-### Azure Synapse
+### Azure Synapse Analytics
 
 * OLTP - online transational processing
 * OLAP - online analytics processing
