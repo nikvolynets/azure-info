@@ -55,3 +55,7 @@ Monitoring Data Flows
 * OLTP - online transational processing
 * OLAP - online analytics processing
 * MPP - massively parallel processing
+
+#### 2 types of pools:
+* SQL pool
+* Apache Spark pool
