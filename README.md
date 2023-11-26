@@ -52,6 +52,6 @@ Monitoring Data Flows
 
 ### Azure Synapse
 
-OLTP - online transational processing
-OLAP - online analytics processing
-MPP - massively parallel processing
+* OLTP - online transational processing
+* OLAP - online analytics processing
+* MPP - massively parallel processing
