@@ -41,10 +41,37 @@
 
 #### Azure Data Lake Gen2 = Blob storage + Data Lake Gen1 (Hadoop)
 * Access tiers - hot, cool, archive
-* Monitoring services - create rules to manage blob access tiers
 * Security
-* Life Cycle policy
+* Life Cycle policy - create rules to manage blob access tiers
 * Redundancy
+* Monitoring services 
+
+### Security
+* Authentication
+  - Access key
+  - Shared access signature (SAS)
+  - Azure Active Directory (Azure AD)
+* Access Control
+  - Role based access control (RBAC) - Owner, Reader, Contributor
+  - Access control list (ACL)
+* Network access
+  - Firewall and virtual network
+* Data protection
+  - Data encryption in transit
+  - Data encryption in rest
+
+ ### Redundancy (reservation)
+ * Locally-redundant storage (LRS) - 3 copies are mantained within one datacenter
+ * Zone-redundant storage (ZRS) - 3 copies in different availability zones in the same region but in different datacenters (preferred)
+ * Geo-redundant storage (GRS) - 3 additional copies in other geographical area.
+ * Read access GRS (RA GRS) - adds read-only access
+ * Geo-zone redundant storage (GZRS)
+
+### Monitoring services
+* Alerts
+* Metrics
+* Diagnostics
+* Logs Analytics
 
 ### Azure Data Factory (ADF)
 
