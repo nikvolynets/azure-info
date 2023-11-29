@@ -39,7 +39,7 @@ SLA - service level agreements
 
 #### Four data types:
 * Blob - all types of files (most commonly used)
-  * Data Lake Storage Gen2 - Hierarchical blob storage, can criete directories (integrated with Hadoop)
+  * Data Lake Storage Gen2 - Hierarchical blob storage, can create directories (integrated with Hadoop)
 * File
 * Queue - meesages between applications
 * Table - semi-structured NoSQL data
