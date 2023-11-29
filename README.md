@@ -2,6 +2,16 @@
 
 ### Cloud info
 
+SLA - service level agreements
+
+#### Cloud advantages
+* High availability
+* Scalability (vertical and horizontal)
+* Reliability
+* Predictibility (performance, cost)
+* Secutiry and governance
+* Manageability
+
 #### Cloud Service Models:
 * Infrustrusture as a Service (IaaS) - user doesn't conrol hardware but has full control over operation systems, storage and applications (AWS, Azure, GCP, Virtual Machines)
 * Platfrom as a Service (PaaS) - doesn't manage hardware, operation systems and storage but has control over application and configuration environment (ADF, Synapse, Azure Databricks)
