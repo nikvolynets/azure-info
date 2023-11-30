@@ -1,5 +1,10 @@
 # azure-info
 
+### Azure Data Infrustructure
+
+![image](https://github.com/nikvolynets/azure-info/assets/151893648/c20edf5a-cf9e-4df7-a3b6-3b1d04277d15)
+
+
 ### Support Data Engineer - General Approach
 * Receive ticket (SLA, Severity level, initial response time)
 * Check Azure Outage - Azure Service Health
