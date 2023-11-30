@@ -5,7 +5,7 @@
 * Check Azure Outage - Azure Service Health
 * Ask - new change or in production?
 * Does it involves other services? Create collaboration ticket
-* Ask for error code and check logs
+* Ask for error code and check logs (log analytics/Kusto/Data explorer)
 * Initial reponse + regular follow-ups
 * Collect case notes
 
