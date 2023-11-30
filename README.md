@@ -156,7 +156,9 @@ Monitoring Data Flows
 
 * OLTP - online transational processing
 * OLAP - online analytics processing
-* MPP - massively parallel processing
+
+* SMP - Symmetric multi-processing (one server, data stored locally)
+* MPP - massively parallel processing (multi-node (server) system, data stored externally)
 
 #### 2 types of pools:
 * SQL pool - RunTime for SQL scripts
@@ -167,3 +169,5 @@ Monitoring Data Flows
 * Management
 * Monitoring
 * Security
+
+### Azure Data Exlorer (ADX)
