@@ -1,8 +1,25 @@
 # azure-info
 
+### Support Data Engineer - General Approach
+* Receive ticket (SLA, Severity level, initial response time)
+* Check Azure Outage - Azure Service Health
+* Ask - new change or in production?
+* Does it involves other services? Create collaboration ticket
+* Ask for error code and check logs
+* Initial reponse + regular follow-ups
+* Collect case notes
+
+### Most common issues as Support Azure Engineer
+* Issue with pipeline performance
+* Ask general information about service
+
 ### Cloud info
 
-SLA - service level agreements
+SLA - service level agreements between Microsoft and company. It's a promise of availability (uptime & connectivity).
+Composite SLA for all components of the application
+https://azure.microsoft.com/en-us/support/plans/response
+
+
 
 #### Cloud advantages
 * High availability
