@@ -170,4 +170,5 @@ Monitoring Data Flows
 * Monitoring
 * Security
 
-### Azure Data Exlorer (ADX)
+### Azure Data Exlorer (ADX) - ingest store analyst
+Kusto Query Language (KQL)
