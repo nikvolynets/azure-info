@@ -176,4 +176,13 @@ Monitoring Data Flows
 * Security
 
 ### Azure Data Exlorer (ADX) - ingest store analyst
-Kusto Query Language (KQL)
+Kusto Query Language (KQL) - case-sentive read-only language
+
+SourceName
+| take 100 (as LIMIT in SQL)
+| let ... ; (as DEF in Python, defines variable)
+| print
+| sort by ... desc
+| count
+| project (as SELECT in SQL)
+| where
