@@ -155,15 +155,21 @@ Three types:
 Debug mode allows to see the results of each transformation step while you build and debug your data flows.
 Monitoring Data Flows
 
-### Azure Synapse Analytics - signle unified service blending big data analytics (Databricks), data warehousing (SQL DW, Data Lake Storage) and data integration (ADF)
+### Azure Synapse Analytics (ASA) - signle unified service blending big data analytics (Databricks), data warehousing (SQL DW, Data Lake Storage) and data integration (ADF)
 
 ![image](https://github.com/nikvolynets/azure-info/assets/151893648/b8f6f1dd-7786-4de5-adc7-defceb0be492)
+
+* Pipelines and Data Flows (Data Factory)
+* Notebooks: Apache Spark Pools (Databricks)
+* SQL Pool (MPP) (Formerly SQL Data Warehouse) - Relational Database, big data solution
+* Data Lake Storage
+* Power BI
 
 * OLTP - online transational processing
 * OLAP - online analytics processing
 
 * SMP - Symmetric multi-processing (one server, data stored locally)
-* MPP - massively parallel processing (multi-node (server) system, data stored externally)
+* MPP - Massively parallel processing (multi-node (server) system, data stored externally)
 
 #### 2 types of pools:
 * SQL pool - RunTime for SQL scripts
